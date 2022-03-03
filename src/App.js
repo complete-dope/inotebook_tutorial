@@ -8,13 +8,14 @@ import Home from './components/Home'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import NoteState from './context/notes/NoteState.js'
-
+import Alert from './components/Alert'
 function App() {
   return (
     <>
       <NoteState>
         <Router>
           <Navbar />
+          <Alert message = "this is great"/>
           <div className="container">
             <Switch>
               <Route exact path="/">

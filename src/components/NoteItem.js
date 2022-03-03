@@ -10,6 +10,8 @@ const NoteItem = (props) => {
                 <div className="card-body">
                     <h5 className="card-title" >{note.title}</h5>
                     <p className="card-text" >{note.description}</p>
+                    <button >Delete</button>
+                    <button className='mx-1'>Update</button>
                 </div>
         </div>
     )
